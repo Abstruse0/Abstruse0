@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋, I am Jordan Dent, an aspiring Network Engineer.
 
 ---
 
