@@ -1,18 +1,18 @@
-## Hi there 👋, I am Jordan Dent, an aspiring Network Engineer.
+# Jordan Dent | Network & Systems Architecture Portfolio
+
+Active roadmap documenting my journey through advanced infrastructure engineering. I'm building public repositories to transform core CCNP concepts into production-ready briefs focused on deterministic path engineering (EIGRP/OSPF), high-availability edge resiliency (IP SLA/EOT), and NetDevOps automation using Python and the CML REST API.
 
 ---
 
-## 🛠️ Technical Competencies & Tooling
+## 👋 Introduction & Professional Background
+Welcome to my engineering workspace. I am currently deep in the trenches of my **Cisco CCNP Enterprise** studies, utilizing **INE (Internetwork Expert)** as my primary training platform for advanced infrastructure design and troubleshooting. 
 
-### 🔀 Advanced Routing & Control Plane Control
-* **Path Engineering:** Granular metric manipulation using EIGRP Named Mode (wide metrics, offset lists) and OSPF cost tuning to enforce deterministic traffic flows.
-* **Multi-Protocol Integration:** Designing loop-free mutual multi-point redistribution frameworks utilizing administrative route-tagging, route-maps, and prefix-list filtering.
-* **Scalable Architectures:** Implementing multi-area OSPF databases with optimized area types (Stub, NSSA) and standardizing EIGRP stub configurations to restrict query propagation.
+I approach my professional development with a highly structured learning framework. Having already earned my **CCNA** alongside the CompTIA **Trifecta (A+, Network+, Security+)**, this portfolio represents the shift from foundational implementation to advanced, automated enterprise systems architecture. Rather than treating my studies as a passive reading exercise, I use this space to build, break, and programmatically validate complex topologies.
 
-### 🛡️ Infrastructure Resiliency & Edge Architecture
-* **Proactive State Tracking:** Deploying IP SLA engines tied to Enhanced Object Tracking (EOT) to protect against silent upstream packet loss and service provider brownouts.
-* **Gateway Redundancy:** Configuring deterministic first-hop failover environments using HSRP and VRRP, optimized for rapid control-plane tracking.
+---
 
-### 🐍 Network Automation & Staging (NetDevOps)
-* **Programmatic Deployments:** Utilizing Python (`Netmiko`, `Paramiko`) to scale configuration deployment and audit live control-plane states over SSH.
-* **Staging & Emulation:** Leveraging Cisco Modeling Labs (CML) and the `virl2_client` REST API library to programmatically spin up, stress-test, and break complex topologies.
+## 🛠️ Infrastructure Stack & Tooling
+* **Routing & Switching:** EIGRP (Classic & Named Mode), Multi-Area OSPF, Mutual Multi-Point Redistribution, BGP Path Selection.
+* **Resiliency & Edge:** IP SLA Engines, Enhanced Object Tracking (EOT), First-Hop Redundancy (HSRP/VRRP).
+* **Network Automation:** Python (`virl2_client`, `Netmiko`), REST APIs, Infrastructure-as-Code (IaC) staging.
+* **Environments:** Cisco Modeling Labs (CML), GNS3, Git/GitHub.
