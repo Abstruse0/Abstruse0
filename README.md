@@ -1,16 +1,18 @@
 ## Hi there 👋
 
-<!--
-**Abstruse0/Abstruse0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 🛠️ Technical Competencies & Tooling
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔀 Advanced Routing & Control Plane Control
+* **Path Engineering:** Granular metric manipulation using EIGRP Named Mode (wide metrics, offset lists) and OSPF cost tuning to enforce deterministic traffic flows.
+* **Multi-Protocol Integration:** Designing loop-free mutual multi-point redistribution frameworks utilizing administrative route-tagging, route-maps, and prefix-list filtering.
+* **Scalable Architectures:** Implementing multi-area OSPF databases with optimized area types (Stub, NSSA) and standardizing EIGRP stub configurations to restrict query propagation.
+
+### 🛡️ Infrastructure Resiliency & Edge Architecture
+* **Proactive State Tracking:** Deploying IP SLA engines tied to Enhanced Object Tracking (EOT) to protect against silent upstream packet loss and service provider brownouts.
+* **Gateway Redundancy:** Configuring deterministic first-hop failover environments using HSRP and VRRP, optimized for rapid control-plane tracking.
+
+### 🐍 Network Automation & Staging (NetDevOps)
+* **Programmatic Deployments:** Utilizing Python (`Netmiko`, `Paramiko`) to scale configuration deployment and audit live control-plane states over SSH.
+* **Staging & Emulation:** Leveraging Cisco Modeling Labs (CML) and the `virl2_client` REST API library to programmatically spin up, stress-test, and break complex topologies.
